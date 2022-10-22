@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header {
+    background-color: #1F2937;
+    height: 300px;
+    color: #F9FAF8;
+}
+
+.content-one {
+    background-color: #fff;
+    height: 250px;
+}
+
+.content-two {
+    background-color: #E5E7EB;
+    height: 200px;
+}
+
+.content-three {
+    background-color: #fff;
+    height: 150px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+}
