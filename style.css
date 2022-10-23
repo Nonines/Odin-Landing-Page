@@ -77,14 +77,14 @@ body {
     margin: 4px;
 }
 
-.header .subtext a {
+.header .subtext #sign-up {
     background-color: #3882F6;
     font-size: 18px;
     border-radius: 6px;
     padding: 6px 18px;
-    text-decoration: none;
     font-weight: 500;
     color: #F9FAF8;
+    width: 64px;
 
 }
 
@@ -93,8 +93,12 @@ body {
     height: 234px;
     background-color: #999ba0;
     flex: initial;
+    display: flex;
 }
 
+.header .secondary-image p {
+    margin: auto;
+}
 /* ! */
 
 .content-one {
