@@ -140,10 +140,38 @@ body {
 }
 /* ! */
 
+/* Third section(content-two) */
 .content-two {
     background-color: #E5E7EB;
-    height: 200px;
+    height: 300px;
+    padding: 36px 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.content-two p {
+    width: 700px;
+}
+
+.content-two #quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    text-align: start;
+    margin-bottom: 4px;
+}
+
+.content-two #author {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: end;
+}
+
+/* ! */
 
 .content-three {
     background-color: #fff;
