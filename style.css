@@ -121,19 +121,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1px;
+    gap: 30px;
 }
 
 .content-one .illustration {
-    width: 150px;
+    width: 170px;
     height: auto;
     text-align: center;
     color: #999ba0;
 }
 
 .content-one .thumb {
-    width: 124px;
-    height: 130px;
+    width: 164px;
+    height: 150px;
     border: 3px solid #3882F6;
     border-radius: 16px;
     margin: 0px auto;
@@ -210,11 +210,14 @@ body {
 .action-container .sign-up {
     border: 2px solid #E5E7EB;
 }
-
-
 /* ! */
 
+/* Footer */
 .footer {
     background-color: #1F2937;
-    height: 50px;
+    height: 80px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
