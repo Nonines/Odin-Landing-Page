@@ -77,7 +77,7 @@ body {
     margin: 4px;
 }
 
-.header .subtext #sign-up {
+.sign-up {
     background-color: #3882F6;
     font-size: 18px;
     border-radius: 6px;
@@ -173,10 +173,46 @@ body {
 
 /* ! */
 
+/* Fourth section */
 .content-three {
     background-color: #fff;
-    height: 150px;
+    height: 200px;
+    padding: 20px 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.content-three .action-container {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    padding: 48px;
+    border-radius: 8px;
+}
+
+.action-text {
+    color: #E5E7EB;
+}
+
+.action-text * {
+    margin: 1px;
+}
+
+.action-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-container .sign-up {
+    border: 2px solid #E5E7EB;
+}
+
+
+/* ! */
 
 .footer {
     background-color: #1F2937;
