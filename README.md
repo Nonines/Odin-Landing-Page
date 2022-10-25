@@ -6,3 +6,4 @@ This is my attempt at Project: [Landing Page](https://www.theodinproject.com/les
 ## Skills demonstrated in this project
 
 * Positioning with CSS Flexbox.
+* [Live preview](https://nonines.github.io/Odin-Landing-Page/)
